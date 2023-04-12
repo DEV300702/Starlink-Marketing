@@ -1,0 +1,949 @@
+<!--
+Mobile web development 
+Template for General purpose html5 page with JQuery Mobile
+Created by: Dev Manishkumar Shah
+email:  Dshah3418@conestogac.on.ca
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <link href="/img/favicon.ico" rel="icon" type="image/x-icon">
+    <title>Starlink Marketing</title>
+    <!--jQuery-->
+    <script src="js/lib/jquery-2.1.4.js"></script>
+    <!--jQuery mobile-->
+    <script src="js/lib/jquery.mobile-1.4.5.js"></script>
+    <!--jQuery validate-->
+    <script src="js/lib/jquery.validate.js"></script>
+    <!--jQuery mobile stylesheet-->
+    <link href="css/lib/jquery.mobile-1.4.5.css" rel="stylesheet">
+    <!--jQuery my script-->
+    <!--jQuery my styles-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <script src="js/myscript.js"></script>
+    <link href="css/mystyle.css" rel="stylesheet">
+
+
+</head>
+<body>
+<div data-role="page" id="pageHome" style="background-image: url('/img/background.jpg')">
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm mb-3 navbar-right fixed-nav-bar">
+        <div class="container-fluid justify-content-center navbar navbar-expand-sm navbar-toggleable-sm mb-3 navbar-right fixed-nav-bar"
+             style="margin-top:15px;font-size:30px">
+            <img src="img/STARLINK%20Marketing%20LOGO-min.png" style="width: 370px;">
+            <h2 class="display-4">STARLINK MARKETING SOLUTIONS LTD.</h2>
+        </div>
+    </nav>
+
+    <div data-iconpos="top" data-role="navbar">
+        <!--<nav class="navbar navbar-expand-lg navbar-light bg-light border-0">-->
+        <!--    <div class="row">-->
+        <!--        <a class="navbar-brand mb-0 h1" href="#">-->
+        <!--            <div class="container-fluid justify-content-center navbar navbar-expand-sm navbar-toggleable-sm mb-3 navbar-right fixed-nav-bar"-->
+        <!--                 style="margin-top:15px;font-size:30px">-->
+        <!--                <img src="img/STARLINK%20Marketing%20LOGO-min.png" style="width: 370px;">-->
+        <!--                <h2 class="display-4">STARLINK MARKETING SOLUTIONS LTD.</h2>-->
+        <!--            </div>-->
+        <!--        </a>-->
+        <!--    </div>-->
+        <!--    <div class="row">-->
+        <!--        <div class="collapse navbar-collapse" id="navbarNav">-->
+        <!--            <ul class="navbar-nav flex-grow-1 pagination justify-content-center navHeading ">-->
+        <!--                <li class="nav-item page-item active">-->
+        <!--                    <a class="ui-btn-active ui-state-persist active nav-link" href="#pageHome">Home</a>-->
+        <!--                </li>-->
+        <!--                <li class="nav-item page-item">-->
+        <!--                    <a href="#pageProduct">Products</a>-->
+
+        <!--                </li>-->
+        <!--                <li class="nav-item page-item">-->
+        <!--                    <a href="#pageSpecialOffers">Special Offers</a>-->
+        <!--                </li>-->
+        <!--                <li class="nav-item page-item">-->
+        <!--                    <a href="#pageContactUs">Contact US</a>-->
+        <!--                </li>-->
+        <!--                <li class="nav-item page-item">-->
+        <!--                    <a href="#pageAboutUs">About Us</a>-->
+        <!--                </li>-->
+        <!--            </ul>-->
+        <!--        </div>-->
+        <!--    </div>-->
+
+        <!--</nav>-->
+        <nav class="navbar navbar-expand-sm  navbar-light border-2 box-shadow">
+
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler"
+                    data-bs-target=".navbar-collapse"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse d-sm-inline-flex border-2">
+                <ul class="navbar-nav flex-grow-1 pagination justify-content-center navHeading ">
+                    <li class="nav-item page-item active">
+                        <a class="active ui-state-persist nav-item nav-link" href="#pageHome">Home</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageProduct">Products</a>
+
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageSpecialOffers">Special Offers</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageContactUs">Contact US</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageAboutUs">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <section data-role="content">
+        <div class="text-center">
+
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <div class="slides">
+                    <!-- Full-width images with number and caption text -->
+                    <!--<div class="mySlides fade">-->
+                    <div>
+                        <div class="numbertext">1 / 3</div>
+                        <img src="/img/STARLINK%20Marketing%20LOGO-min.png" style="width:800px; opacity: 1.0">
+                        <!--<div class="text">Caption Text</div>-->
+                    </div>
+
+                    <!--<div class="mySlides fade">-->
+                    <!--    <div class="numbertext">2 / 3</div>-->
+                    <!--    <img src="/img/img-2.jpg" style="width:100%">-->
+                    <!--    <div class="text">Caption Two</div>-->
+                    <!--</div>-->
+
+                    <!--<div class="mySlides fade">-->
+                    <!--    <div class="numbertext">3 / 3</div>-->
+                    <!--    <img src="/img/img-3.jpg" style="width:100%">-->
+
+                    <!--    <div class="text">Caption Three</div>-->
+                </div>
+
+
+                <!--<div class="badge bg-dark bg-opacity-25 position-absolute top-50 start-0 translate-middle">-->
+                <!--    <a id="btnPrevImg" onclick="plusSlides(-1)">&#10094;</a>-->
+                <!--</div>-->
+                <!--<div class="badge bg-dark bg-opacity-25 position-absolute top-50 start-100 translate-middle">-->
+                <!--    <a id="btnNextImg" onclick="plusSlides(1)">&#10095;</a>-->
+                <!--</div>-->
+                <!--<div class="move left">-->
+                <!--    <span class="fa fa-angle-left"></span>-->
+                <!--</div>-->
+                <!--<div class="move right">-->
+                <!--    <span class="fa fa-angle-right"></span>-->
+                <!--</div>-->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row plan-offers">
+                        <div class="col-sm ">
+
+                            <p class="lead">
+                            <h4>
+                                <img src="/img/HomeInternetSym.png"/> Home Internet
+                            </h4>
+                            Power up your home internet connection with
+                            <br/>the fastest internet speed.
+                            <span class="price-tag">from $49.99</span>
+                            </p>
+                        </div>
+
+
+                        <div class="col-sm ">
+
+                            <p class="lead">
+                            <h4>
+                                <img src="/img/wifisym.png"/> Commerical Services
+                            </h4>
+                            Run your business from anywhere with our latest technology broadband connection.
+
+                            <span class="price-tag">at $29</span>
+                            </p>
+                        </div>
+
+
+                        <div class="col-sm ">
+
+                            <p class="lead">
+                            <h4>
+                                <img src="/img/bundleSym.png"/> Bundle
+                            </h4>
+                            Enjoy data bundles with amazing value <br/>and discover endless opportunities<br/> to
+                            connect worldwide.
+                            <span class="price-tag">from $28</span>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container special-offers">
+                    <!--<img alt="festival offers." class="festival-image img-fluid" height="auto"-->
+                    <!--     src="img/christmasBackground_1.png" width="auto"/>-->
+                    <!--<div class="position-absolute bottom-0 start-50 translate-middle-x">-->
+                    <!--    <a class="btn-claim-now rounded-pill"  >Claim Now</a>-->
+                    <!--</div>-->
+                </div>
+                <div class="container-fluid rounded" style=" color: black">
+                    <div class="row">
+                        <div class="col-sm">
+                            High-speed Internet
+                        </div>
+                        <div class="col-sm">
+                            Rogers family for more than <br/>10M+
+                        </div>
+                        <div class="col-sm">
+                            Safety and Secured
+                        </div>
+                        <div class="col-sm">
+                            Network Efficient
+                        </div>
+                        <div class="col-sm">
+                            List of friendly features
+                        </div>
+                        <div class="col-sm">
+                            More Gadgets
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h3 class="header-h3">
+                        Start your Savings
+                    </h3>
+
+                    <div class="row container-fluid">
+                        <button class="btn-darkgreen btn-outline-danger" id="btnInternetPlan" type="button">Internet
+                        </button>
+                        <button class=" btn-darkgreen btn-outline-danger" id="btnBusinessPlan" type="button">Business
+                        </button>
+                        <button class="btn-darkgreen btn-outline-danger" id="btnWirelessPlan" type="button">Wireless
+                        </button>
+                        <button class="btn-darkgreen btn-outline-danger" id="btnSmartHomePlan" type="button">Smart
+                            Home
+                        </button>
+                    </div>
+
+                    <div id="btnContentDisplay">
+
+                    </div>
+                </div>
+
+
+                <h2 class="header-h3">Customer Reviews</h2>
+                <div class="row">
+                    <div class="flip-card container-fluid">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="text-dark">
+                                    we loved the internet!
+                                </p>
+                            </div>
+                            <div class="flip-card-back bg-white">
+                                <h3 class="text-dark">
+                                    John Doe
+                                </h3>
+
+                                <img alt="review-1" src="/img/persona-1.jpg" style="width:300px;height:200px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card container-fluid">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="text-dark">
+                                    we loved the internet!
+                                </p>
+                            </div>
+                            <div class="flip-card-back bg-white">
+                                <h3 class="text-dark">
+                                    John Doe
+                                </h3>
+
+                                <img alt="review-1" src="/img/persona-2.jpg" style="width:300px;height:200px"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card container-fluid">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="text-dark">
+                                    we loved the internet!
+                                </p>
+                            </div>
+                            <div class="flip-card-back bg-white">
+                                <h3 class="text-dark">
+                                    John Doe
+                                </h3>
+                                <img alt="review-1" src="/img/persona-3.jpg" style="width:300px;height:200px"/>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card container-fluid">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="text-dark">
+                                    we loved the internet!
+                                </p>
+                            </div>
+                            <div class="flip-card-back bg-white">
+                                <h3 class="text-dark">
+                                    John Doe
+                                </h3>
+
+                                <img alt="review-1" src="/img/persona-1.jpg" style="width:300px;height:200px"/>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="border-top footer text-muted" data-position="fixed" data-role="footer" data-theme="b"
+            style="background-color:red">
+        <div class="container" style="text-align:center;font-size:18px;color:white">
+
+            &copy; 2023 - Starlink Marketing Solutions Ltd.
+
+        </div>
+        <script src="/js/jquery-3.6.4.min.js"></script>
+        <!--<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+    </footer>
+</div>
+
+
+<div data-role="page" id="pageProduct" style="background-image: url('/img/background.jpg')">
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm mb-3 navbar-right fixed-nav-bar">
+        <div class="container-fluid justify-content-center navbar navbar-expand-sm navbar-toggleable-sm mb-3 navbar-right fixed-nav-bar"
+             style="margin-top:15px;font-size:30px">
+            <img src="img/STARLINK%20Marketing%20LOGO-min.png" style="width: 370px;">
+            <h2 class="display-4">STARLINK MARKETING SOLUTIONS LTD.</h2>
+        </div>
+    </nav>
+
+    <div data-iconpos="top" data-role="navbar">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow">
+            <div>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler"
+                        data-bs-target=".navbar-collapse"
+                        data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse d-sm-inline-flex">
+                <ul class="navbar-nav flex-grow-1 pagination justify-content-center navHeading">
+                    <li class="nav-item page-item">
+                        <a href="#pageHome">Home</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a class="ui-btn-active ui-state-persist active nav-link" href="#pageProduct">Products</a>
+
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageSpecialOffers">Special Offers</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageContactUs">Contact US</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageAboutUs">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section data-role="content">
+        <div>
+            <div class="product justify-content-center">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <!--<a-->
+                        <!--        href="https://www.freepik.com/free-vector/flat-hand-drawn-young-people-using-smartphones_12427691.htm#query=people%20using%20phone&position=2&from_view=keyword&track=ais">-->
+                        <!--</a>-->
+                        <img class="product-image shadow-lg rounded" src="/img/Mobility_Image.jpg"/>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 product-description">
+                        <h3 class="display-4">MOBILITY PLANS</h3>
+                        <p>
+                            Looking for a flexible and affordable way to stay connected while on the go? Our Mobility
+                            plans have got you covered! With our plans, you can enjoy the freedom to use your smartphone
+                            or tablet wherever you are, without worrying about expensive roaming charges or data
+                            overages.<br>
+
+                            Our Mobility plans come with a range of features designed to meet your needs, including
+                            unlimited talk and text, generous data allowances, and fast, reliable network coverage.
+                            Whether you're a frequent traveler, a student on the go, or simply looking for an affordable
+                            alternative to traditional mobile phone plans, we have the perfect Mobility plan for you.
+                        </p>
+                        <p>
+                            As we provide internet plans for mobile devices from 3 GB to 100 GB from several top-tier
+                            carriers in Canada, we have the greatest mobility plans across the country. You won't ever
+                            be dissatisfied with the speed, and we have plans to include a number of other bundles, such
+                            as texts and international calls.
+                        </p>
+                        <p class="font-weight-bold ">
+                            So why wait? Sign up for one of our Mobility plans today and experience the freedom and
+                            flexibility of staying connected wherever you go!
+                        </p>
+                        <div class="btn-contactus text-white rounded-pill justify-content-center">
+                            <a href="#pageContactUs" class="btn-contactus">Contact Us</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="product justify-content-center">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 product-description">
+                        <h3 class="display-4">WIFI PLANS</h3>
+                        <p>Looking for fast, reliable, and affordable home internet service? Our Home Internet plans
+                            have got you covered! With our plans, you can enjoy high-speed internet access, unlimited
+                            data usage, and exceptional customer service.
+
+                            Our Home Internet plans come with a range of features designed to meet your needs, including
+                            fast download and upload speeds, reliable connectivity, and easy-to-use online tools to
+                            manage your account and track your usage. Whether you're streaming your favorite shows,
+                            working from home, or gaming online, we have the perfect Home Internet plan for you.
+                        </p>
+                        <p>
+                            So why wait? Sign up for one of our Home Internet plans today and experience the speed,
+                            reliability, and affordability of high-quality internet service right in your own home!
+                        </p>
+                        <div class="btn-contactus text-white rounded-pill justify-content-center">
+                            <a href="#pageContactUs" class="btn-contactus">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <!--<a href="https://www.freepik.com/free-vector/illustration-people-working-remotely_12242470.htm#query=people%20using%20home%20internet&position=1&from_view=search&track=ais"></a>-->
+                        <img class="product-image shadow-lg rounded" src="/img/wifi-image.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="product justify-content-center">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <!--<a href="https://www.freepik.com/free-vector/breaking-news-concept_9649086.htm#query=people%20watching%20tv&position=2&from_view=search&track=ais">-->
+                        </a>
+                        <img class="product-image shadow-lg rounded" src="/img/tv.jpg"/>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 product-description">
+                        <h3 class="display-4">TV PLANS</h3>
+                        <p>Looking for a great way to enjoy your favorite shows, movies, and sports from the comfort of
+                            your own home? Our TV plans have got you covered! With our plans, you can access hundreds of
+                            channels, including premium content, sports networks, and international programming.
+
+                            Our TV plans come with a range of features designed to meet your needs, including
+                            high-definition picture quality, customizable channel lineups, and easy-to-use online tools
+                            to manage your account and record your favorite shows. Whether you're a sports fan, a movie
+                            buff, or just love binge-watching your favorite TV shows, we have the perfect TV plan for
+                            you.
+                        </p>
+                        <p>
+                            So why wait? Sign up for one of our TV plans today and experience the best in home
+                            entertainment!
+                        </p>
+                        <div class="btn-contactus text-white rounded-pill justify-content-center">
+                            <a href="#pageContactUs" class="btn-contactus">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product justify-content-center">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 product-description">
+                        <h3 class="display-4">HOME SECURITY PLANS</h3>
+                        <p>Looking for peace of mind when it comes to the safety and security of your home and loved
+                            ones? Our Home Security plans have got you covered! With our plans, you can protect your
+                            home with advanced security technology, 24/7 monitoring, and exceptional customer service.
+
+                            Our Home Security plans come with a range of features designed to meet your needs, including
+                            video surveillance, motion detection, door and window sensors, and remote access through a
+                            smartphone app. Plus, with our 24/7 monitoring service, you can rest easy knowing that our
+                            trained professionals are always watching over your home, ready to respond to any emergency.
+                        </p>
+                        <p>
+                            So why wait? Sign up for one of our Home Security plans today and experience the peace of
+                            mind that comes with knowing your home and loved ones are protected.
+                        </p>
+                        <div class="btn-contactus text-white rounded-pill justify-content-center">
+                            <a href="#pageContactUs" class="btn-contactus">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <!--<a href="https://www.freepik.com/free-vector/safety-measures-unauthorized-access-prevention_12085699.htm#query=home%20security&position=11&from_view=search&track=ais"></a>-->
+                        <img class="product-image shadow-lg rounded" src="/img/home_security_image.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="border-top footer text-muted" data-position="fixed" data-role="footer" data-theme="b"
+            style="background-color:red">
+        <div class="container" style="text-align:center;font-size:18px;color:white">
+
+            &copy; 2023 - Starlink Marketing Solutions Ltd.
+
+        </div>
+        <script src="/js/jquery-3.6.4.min.js"></script>
+        <!--<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+    </footer>
+</div>
+
+
+<div data-role="page" id="pageSpecialOffers" style="background-image: url('/img/background.jpg')">
+    <!--every page should have  aheader and footer-->
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm mb-3 navbar-right fixed-nav-bar">
+        <div class="container-fluid justify-content-center navbar navbar-expand-sm navbar-toggleable-sm mb-3 navbar-right fixed-nav-bar"
+             style="margin-top:15px;font-size:30px">
+            <img src="img/STARLINK%20Marketing%20LOGO-min.png" style="width: 370px;">
+            <h2 class="display-4">STARLINK MARKETING SOLUTIONS LTD.</h2>
+        </div>
+    </nav>
+
+    <div data-iconpos="top" data-role="navbar">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow">
+            <div>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler"
+                        data-bs-target=".navbar-collapse"
+                        data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse d-sm-inline-flex">
+                <ul class="navbar-nav flex-grow-1 pagination justify-content-center navHeading">
+                    <li class="nav-item page-item">
+                        <a href="#pageHome">Home</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageProduct">Products</a>
+
+                    </li>
+                    <li class="nav-item page-item">
+                        <a class="ui-btn-active ui-state-persist active nav-link" href="#pageSpecialOffers">Special
+                            Offers</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageContactUs">Contact US</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageAboutUs">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section class="bg-transparent" data-role="content">
+        <h1 class="text-center font-weight-bold border-bottom-2 special-offers-heading">This is the Special offers page</h1>
+
+        <div class="container">
+            <h2>Home Internet Offers</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Starting at $44...
+                            </h5>
+                            <p class="card-text">
+                            <ul class="m-5">
+                                <li>
+                                    <span class="font-weight-bold"> 100 Mbps</span> for $44.
+                                </li>
+                                <li>
+                                    500 Mbps for $50.
+                                </li>
+                                <li>
+                                    1000 Mbps for $60.
+                                </li>
+                                <li>
+                                    1.5 Gbps for $65.
+                                </li>
+                                <li>
+                                    50 Mbps for $39.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <h2>Business Plans</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Starting at $60...
+                            </h5>
+                            <p class="card-text">
+                            <ul class="m-5">
+                                <li>
+                                    Commercial phone line available at $10 only.
+                                </li>
+                                <li>
+                                    Commerical Security plans available at $29 only.
+                                </li>
+                                <li>
+                                    Commercial Internet Plans available at $59 only.
+                                </li>
+
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Wireless Plans</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Starting at $25... (Only Talk & Test)<br/>
+                                Best Offers start at..
+                            </h5>
+                            <p class="card-text">
+                            <ul class="m-5">
+                                <li>
+                                    10 GB for $45 only.
+                                </li>
+                                <li>
+                                    50 GB for $65 only.
+                                </li>
+                                <li>
+                                    100 GB for $79 only
+                                </li>
+                                <li>US/Canada Calling $5 additional charges*</li>
+                                <li>Asian countries (International Calling) $5 additional charges*</li>
+                                <li class="text-capitalize"><div>Highlight DEAL</div><div>25 GB for $40</div></li>
+                            <li>
+
+                            </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Smart Home Plans</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Starting at $15...
+                            </h5>
+                            <p class="card-text">
+                            <ul class="m-5">
+                                <li>
+                                   <span class="text-capitalize"> Telus Home security plans</span> <br/>
+                                    $40 includes <br/>
+                                    2 Cameras,<br/>
+                                    2 Indoor Cameras,<br/>
+                                    2 Outdoor Cameras, <br/>
+                                    1 Monitor Control Panel<br/>
+                                </li>
+                                <li>
+                                    24 Hours Guard Response.
+                                </li>
+                                <li>
+                                    Upto $25,000 Online Fraud Protection.
+                                </li>
+                            <li>
+                                Many other Customizations available.
+                            </li>
+
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-top footer text-muted" data-position="fixed" data-role="footer" data-theme="b"
+            style="background-color:red">
+        <div class="container" style="text-align:center;font-size:18px;color:white">
+
+            &copy; 2023 - Starlink Marketing Solutions Ltd.
+
+        </div>
+        <script src="/js/jquery-3.6.4.min.js"></script>
+        <!--<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+    </footer>
+</div>
+
+
+<div data-role="page" id="pageContactUs" style="background-image: url('/img/background.jpg')">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm mb-3 navbar-right fixed-nav-bar">
+        <div class="container-fluid justify-content-center navbar navbar-expand-sm navbar-toggleable-sm mb-3 navbar-right fixed-nav-bar"
+             style="margin-top:15px;font-size:30px">
+            <img src="img/STARLINK%20Marketing%20LOGO-min.png" style="width: 370px;">
+            <h2 class="display-4">STARLINK MARKETING SOLUTIONS LTD.</h2>
+        </div>
+    </nav>
+
+    <div data-iconpos="top" data-role="navbar">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow">
+            <div>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler"
+                        data-bs-target=".navbar-collapse"
+                        data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse d-sm-inline-flex">
+                <ul class="navbar-nav flex-grow-1 pagination justify-content-center navHeading">
+                    <li class="nav-item page-item">
+                        <a href="#pageHome">Home</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageProduct">Products</a>
+
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageSpecialOffers">Special Offers</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a class="ui-btn-active ui-state-persist active nav-link" href="#pageContactUs">Contact US</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageAboutUs">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section data-role="content">
+        <div class="container">
+            <h3 class="header-h3">
+                <span style="font-size:40px;color:orangered">We are listening, </span>Just leave a message and our
+                representative will give you a call.
+            </h3>
+
+            <form enctype="application/x-www-form-urlencoded" method="post">
+
+                <div class="text-danger"></div>
+                <div class="row" style="padding-left:10px;padding-right:10px">
+                    <div class="col">
+                        <label class="message-label">Your Name: </label>
+                        <input class="form-control" type="text"/>
+                    </div>
+                    <div class="col">
+                        <label class="message-label">Your Phone Number: </label>
+                        <input class="form-control" type="tel"/>
+                    </div>
+                </div>
+                <div class="row" style="padding-left:10px;padding-right:10px">
+                    <div class="col">
+                        <label class="message-label">Your Email Address</label>
+                        <input class="form-control" type="email"/>
+                    </div>
+                    <div class="col">
+                        <label class="message-label">Your Postal Code</label>
+                        <input class="form-control" type="text"/>
+                    </div>
+                    <div class="col">
+                        <label class="message-label">Your Plan Inquiry</label>
+                        <input class="form-control" disabled type="text"/>
+                    </div>
+                </div>
+                <div class="form-group" style="padding-left:10px;padding-right:10px">
+                    <label class="message-label">Your Message: </label>
+
+                    <textarea class="form-control" cols="50" rows="4"></textarea>
+                </div>
+
+                <div class="btn-submit-message">
+                    <button class="btn btn-primary btn-submit rounded-pill" style="padding:5px 35px 5px 35px;
+           font-size:25px;background-color:orangered" type="submit">Send
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+    </section>
+    <footer class="border-top footer text-muted" data-position="fixed" data-role="footer" data-theme="b"
+            style="background-color:red">
+        <div class="container" style="text-align:center;font-size:18px;color:white">
+
+            &copy; 2023 - Starlink Marketing Solutions Ltd.
+
+        </div>
+        <script src="/js/jquery-3.6.4.min.js"></script>
+        <!--<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+    </footer>
+</div>
+
+
+<div data-role="page" id="pageAboutUs" style="background-image: url('/img/background.jpg')">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm mb-3 navbar-right fixed-nav-bar">
+        <div class="container-fluid justify-content-center navbar navbar-expand-sm navbar-toggleable-sm mb-3 navbar-right fixed-nav-bar"
+             style="margin-top:15px;font-size:30px">
+            <img src="img/STARLINK%20Marketing%20LOGO-min.png" style="width: 370px;">
+            <h2 class="display-4">STARLINK MARKETING SOLUTIONS LTD.</h2>
+        </div>
+    </nav>
+
+    <div data-iconpos="top" data-role="navbar">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow">
+            <div>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler"
+                        data-bs-target=".navbar-collapse"
+                        data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse d-sm-inline-flex">
+                <ul class="navbar-nav flex-grow-1 pagination justify-content-center navHeading border-0 mr-auto">
+                    <li class="nav-item page-item">
+                        <a href="#pageHome">Home</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageProduct">Products</a>
+
+                    </li>
+                    <li class="nav-item page-item">
+                        <a href="#pageSpecialOffers">Special Offers</a>
+                    </li>
+
+
+                    <li class="nav-item page-item">
+                        <a href="#pageContactUs">Contact US</a>
+                    </li>
+                    <li class="nav-item page-item">
+                        <a class="ui-btn-active ui-state-persist active nav-link" href="#pageAboutUs">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section data-role="content">
+        <div class="container about-us">
+            <h3 class="header-h3">
+                Our Fastest and most reliable connections!
+            </h3>
+            <p>The global village of tomorrow's town square is evolving to be the Internet. Everywhere in the world has
+                access to the Internet. People today are still more concerned with internet speeds for faster web
+                browsing and staying in touch with others via social media and video calls. And in order to fulfil all
+                of our commitments, we partnered with Rogers while developing the world's most dependable internet
+                connections.
+            </p>
+        </div>
+        <div class="container about-us">
+            <h3 class="header-h3">
+                The best broadband service,<span style="font-size:40px"> We offer across the Ontario.</span>
+
+            </h3>
+            <p>
+                Although there are many broadband options outside, we promise to deliver the quickest, most dependable,
+                and secure internet to your home. We maintain our high standards by offering the best tools, resources,
+                services, etc. Our community has access to 24/7 IT support.
+            </p>
+        </div>
+
+        <div class="container about-us">
+            <div class="row">
+                <h3 class=" header-h3">Why Choosing us?</h3>
+                <p class="">
+                    We work hard every day to maintain track of the most recent costs, speeds, and performance
+                    indicators for internet service providers so you may contrast different providers side by side. We
+                    put Wi-Fi routers and other home networking gear through rigorous testing so you can maintain a
+                    seamless lifestyle. And if your connection has any problems or lags? Whatever is holding you back,
+                    we can help you identify it and cure it with our advice and expertise.
+                <div class="col-sm text-center">
+                    <h5>Faster Internet</h5>
+                </div>
+                <div class="col-sm text-center">
+                    <h5>Affordable Plans</h5>
+                </div>
+                <div class="col-sm text-center">
+                    <h5>Hassle-free setup</h5>
+                </div>
+
+                </p>
+            </div>
+        </div>
+
+        <div class="container about-us">
+            <div class="row">
+                <div class="col-sm-5 col-md-5 col-xl-2 divider" style="width:750px;height:600px;">
+                    <img class="family-image" src="/img/family-looking-laptop.jpg"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 col-md-5 col-lg-5 divider">
+                    <h3 class="header-h3">
+                        Choose a smarter way to browse
+                    </h3>
+                    <p class="about-us-description">
+                        Better internet connections lead to better chances, creating better lives. Focusing on providing
+                        the fastest internet in Canada to our customers, we are amongst the leading Broadband service
+                        providers in Canada. We help you connect to a better, quicker, and more secure internet
+                        experience every day by joining the network of our significant data plans. Whether you need to
+                        discover a new internet connection for your home in Canada, test your speed, broadband services,
+                        best internet offers or fasten your Wi-Fi, Brilliant Minds is just the name for you!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="border-top footer text-muted" data-position="fixed" data-role="footer" data-theme="b"
+            style="background-color:red">
+        <div class="container" style="text-align:center;font-size:18px;color:white">
+
+            &copy; 2023 - Starlink Marketing Solutions Ltd.
+
+        </div>
+        <script src="/js/jquery-3.6.4.min.js"></script>
+        <!--<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+    </footer>
+</div>
+</body>
+</html>
