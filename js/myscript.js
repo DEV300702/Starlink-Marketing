@@ -64,9 +64,9 @@ function btnInternetPlan_click() {
     let htmlCode = "";
     htmlCode+=`<h2>Internet Plans!</h2>
 <p>
-please feel the form and we will contact you shortly
+please fill the form and we will contact you shortly
 </p>
-<a data-role="button" href="#pageContactUs" class="btn btn-outline-secondary">Contact Us Form</a>
+<a data-role="button" href="#pageContactUs" class="btn btn-outline-secondary">Contact Us</a>
 <a data-role="button" href="#pageSpecialOffers" class="btn btn-outline-secondary">View Offers</a>`;
 
     let lv = $("#btnContentDisplay");
@@ -81,9 +81,9 @@ function btnBusinessPlan_click() {
     let htmlCode = "";
     htmlCode+=`<h2>Business Plans!</h2>
 <p>
-please feel the form and we will contact you shortly
+please fill the form and we will contact you shortly
 </p>
-<a data-role="button" href="#pageContactUs" class="btn btn-outline-secondary">Contact Us Form</a>
+<a data-role="button" href="#pageContactUs" class="btn btn-outline-secondary">Contact Us</a>
 <a data-role="button" href="#pageSpecialOffers" class="btn btn-outline-secondary">View Offers</a>`;
 
     let lv = $("#btnContentDisplay");
@@ -98,9 +98,9 @@ function btnSmartHomePlan_click() {
     let htmlCode = "";
     htmlCode+=`<h2>Smart Home and Security Plans!</h2>
 <p>
-please feel the form and we will contact you shortly
+please fill the form and we will contact you shortly
 </p>
-<a data-role="button" href="#pageContactUs" class="btn btn-outline-secondary">Contact Us Form</a>
+<a data-role="button" href="#pageContactUs" class="btn btn-outline-secondary">Contact Us</a>
 <a data-role="button" href="#pageSpecialOffers" class="btn btn-outline-secondary">View Offers</a>
 `;
 
@@ -120,9 +120,9 @@ function btnWirelessPlan_click() {
     let htmlCode = "";
     htmlCode+=`<h2>Wireless Internet Plans!</h2>
 <p>
-please feel the form and we will contact you shortly
+please fill the form and we will contact you shortly
 </p>
-<a data-role="button" offer-id="wifi-offers" href="#pageContactUs" class="btn btn-outline-secondary">Contact Us Form</a>
+<a data-role="button" offer-id="wifi-offers" href="#pageContactUs" class="btn btn-outline-secondary">Contact Us</a>
 <a data-role="button" href="#pageSpecialOffers" class="btn btn-outline-secondary">View Offers</a>`;
 
     let lv = $("#btnContentDisplay");
