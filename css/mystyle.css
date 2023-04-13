@@ -197,7 +197,7 @@ margin-right:20px;
 }
 
 .active{
-    background-color:lightgreen;
+    /*background-color:lightgreen;*/
     color:white;
     border-radius:25px;
     height:auto;
@@ -396,7 +396,7 @@ margin-right:20px;
 }
 .navHeading li a{
     font-size: 27px !important;
-    background-color: white !important;
+    background-color: transparent !important;
     color: black !important;
     border: 0px solid black !important;
 
