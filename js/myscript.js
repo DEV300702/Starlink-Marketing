@@ -4,54 +4,54 @@
  * Revision History:
  *       Dev Manishkumar Shah, 2023-01-17 : Created
  */
+//
 // let slideIndex = 0;
 // showSlides();
-// var imgTimeOut;
+//
 // function showSlides() {
 //     let i;
 //     let slides = document.getElementsByClassName("mySlides");
+//     let dots = document.getElementsByClassName("dot");
 //     for (i = 0; i < slides.length; i++) {
 //         slides[i].style.display = "none";
 //     }
 //     slideIndex++;
-//     if (slideIndex > slides.length) { slideIndex = 1 }
-//     slides[slideIndex - 1].style.display = "block";
-//     imgTimeOut = setTimeout(showSlides, 5000); // Change image every 5 seconds
-// }
-
-
-
-// When the user scrolls down 20px from the top of the document, slide down the navbar
-// When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
-// window.onscroll = function () { scrollFunction() };
-
-// function scrollFunction() {
-//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//         document.getElementById("navbar").style.top = "0";
-//     } else {
-//         document.getElementById("navbar").style.top = "-50px";
+//     if (slideIndex > slides.length) {slideIndex = 1}
+//     for (i = 0; i < dots.length; i++) {
+//         dots[i].className = dots[i].className.replace(" active", "");
 //     }
+//     slides[slideIndex-1].style.display = "block";
+//     dots[slideIndex-1].className += " active";
+//     setTimeout(showSlides, 2000); // Change image every 2 seconds
 // }
 
-function plusSlides(addWith) {
-    let slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    if (slideIndex == 1 && addWith == -1) {
-        slideIndex = slides.length + 1;
-    }
-    if (slideIndex == 3 && addWith == 1) {
-        slideIndex = 0;
-    }
-    slides[slideIndex - 1 + addWith].style.display = "block";
-
-    slideIndex += addWith;
-
-    clearTimeout(imgTimeOut);
-
-    imgTimeOut = setTimeout(showSlides, 5000);
+var slideIndex = -1;
+var x= document.getElementsByClassName("mySlides");
+for (var i = 0; i < x.length;i++){
+    x[i].style.display = "none";
 }
+
+function slider() {
+    if (slideIndex >= 0) {
+        x[slideIndex].style.display = "none"; //hide last image
+    }
+    if (slideIndex >= (x.length - 1)) {
+        slideIndex = -1; //make it -1 as index starts from 0
+    }
+
+    x[++slideIndex].style.display = "block"; //show next image
+    setTimeout(slider, 4000); // Change image every 4 seconds
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    slider();
+});
+
+
+
+
+
+
 
 
 function highlightNav() {

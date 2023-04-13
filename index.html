@@ -26,9 +26,9 @@ email:  Dshah3418@conestogac.on.ca
     <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
     <script
-            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            crossorigin="anonymous"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous">
+            src="https://code.jquery.com/jquery-3.4.1.min.js">
     </script>
     <script src="js/myscript.js"></script>
     <link href="css/mystyle.css" rel="stylesheet">
@@ -115,228 +115,247 @@ email:  Dshah3418@conestogac.on.ca
 
 
     <section data-role="content">
-        <div class="text-center">
+        <div class="">
 
             <!-- Slideshow container -->
-            <div class="slideshow-container">
-
-                <div class="slides">
-                    <!-- Full-width images with number and caption text -->
-                    <!--<div class="mySlides fade">-->
-                    <div>
-                        <div class="numbertext">1 / 3</div>
-                        <img src="./img/image-background-2.jpg" style="width:1900px; opacity: 1.0">
-                        <!--<div class="text">Caption Text</div>-->
-                    </div>
-
-                    <!--<div class="mySlides fade">-->
-                    <!--    <div class="numbertext">2 / 3</div>-->
-                    <!--    <img src="/img/img-2.jpg" style="width:100%">-->
-                    <!--    <div class="text">Caption Two</div>-->
-                    <!--</div>-->
-
-                    <!--<div class="mySlides fade">-->
-                    <!--    <div class="numbertext">3 / 3</div>-->
-                    <!--    <img src="/img/img-3.jpg" style="width:100%">-->
-
-                    <!--    <div class="text">Caption Three</div>-->
+            <div class=" ">
+                <div class="mySlides fade text-center m-2">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="./img/image-background-1_LQ.jpg" style="width: 1920px;">
+                    <div class="text">Caption text</div>
+                </div>
+                <div class="mySlides fade text-center">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="./img/image-background-2.jpg" style="width: 1920px">
+                    <div class="text">Caption text</div>
                 </div>
 
+                <!--<a class="prev" onclick="plusSlides(-1)">&#10094</a>-->
+                <!--<a class="next" onclick="plusSlides(1)">&#10095</a>-->
+            </div>
+            <br>
+            <!--<div style="text-align:center">-->
+            <!--    <span class="dot" onclick="currentSlide(1)"></span>-->
+            <!--    <span class="dot" onclick="currentSlide(2)"></span>-->
 
-                <!--<div class="badge bg-dark bg-opacity-25 position-absolute top-50 start-0 translate-middle">-->
-                <!--    <a id="btnPrevImg" onclick="plusSlides(-1)">&#10094;</a>-->
+            <!--</div>-->
+
+            <!--<div class="mySlides fade">-->
+            <!--    &lt;!&ndash; Full-width images with number and caption text &ndash;&gt;-->
+            <!--    <div class="mySlides fade">-->
+            <!--        <div class="numbertext">1 / 3</div>-->
+            <!--        <img src="./img/image-background-2.jpg" style="width:1900px; opacity: 1.0">-->
+            <!--        &lt;!&ndash;<div class="text">Caption Text</div>&ndash;&gt;-->
+            <!--    -->
+
+            <!--    &lt;!&ndash;<div class="mySlides fade">&ndash;&gt;-->
+            <!--    &lt;!&ndash;    <div class="numbertext">2 / 3</div>&ndash;&gt;-->
+            <!--    &lt;!&ndash;    <img src="/img/img-2.jpg" style="width:100%">&ndash;&gt;-->
+            <!--    &lt;!&ndash;    <div class="text">Caption Two</div>&ndash;&gt;-->
+            <!--    &lt;!&ndash;</div>&ndash;&gt;-->
+
+            <!--    &lt;!&ndash;<div class="mySlides fade">&ndash;&gt;-->
+            <!--    &lt;!&ndash;    <div class="numbertext">3 / 3</div>&ndash;&gt;-->
+            <!--    &lt;!&ndash;    <img src="/img/img-3.jpg" style="width:100%">&ndash;&gt;-->
+
+            <!--    &lt;!&ndash;    <div class="text">Caption Three</div>&ndash;&gt;-->
+            <!--</div>-->
+
+
+            <!--&lt;!&ndash;<div class="badge bg-dark bg-opacity-25 position-absolute top-50 start-0 translate-middle">&ndash;&gt;-->
+            <!--&lt;!&ndash;    <a id="btnPrevImg" onclick="plusSlides(-1)">&#10094;</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="badge bg-dark bg-opacity-25 position-absolute top-50 start-100 translate-middle">&ndash;&gt;-->
+            <!--&lt;!&ndash;    <a id="btnNextImg" onclick="plusSlides(1)">&#10095;</a>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="move left">&ndash;&gt;-->
+            <!--&lt;!&ndash;    <span class="fa fa-angle-left"></span>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="move right">&ndash;&gt;-->
+            <!--&lt;!&ndash;    <span class="fa fa-angle-right"></span>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>-->
+            <!--<a class="next" onclick="plusSlides(1)">&#10095;</a>-->
+
+            <!--<br>-->
+
+            <!--&lt;!&ndash; The dots/circles &ndash;&gt;-->
+            <!--<div style="text-align:center">-->
+            <!--    <span class="dot" onclick="currentSlide(1)"></span>-->
+            <!--    <span class="dot" onclick="currentSlide(2)"></span>-->
+            <!--    <span class="dot" onclick="currentSlide(3)"></span>-->
+            <!--</div>-->
+
+            <div class="container-fluid">
+                <div class="row plan-offers">
+                    <div class="col-sm ">
+
+                        <p class="lead">
+                        <h4 style="background: rgba(0,0,0, .1)">
+                            <img src="./img/HomeInternetSym.png"/> Home Internet
+                        </h4>
+                        Power up your home internet connection with
+                        <br/>the fastest internet speed.
+                        <span class="price-tag">from $49.99</span>
+                        </p>
+                    </div>
+
+
+                    <div class="col-sm ">
+
+                        <p class="lead">
+                        <h4 style="background: rgba(255,255,255, .2)">
+                            <img src="./img/wifisym.png"/> Commerical Services
+                        </h4>
+                        Run your business from anywhere with our latest technology broadband connection.
+
+                        <span class="price-tag">at $29</span>
+                        </p>
+                    </div>
+
+
+                    <div class="col-sm ">
+
+                        <p class="lead">
+                        <h4 style="background: rgba(0,0,0, .1)">
+                            <img src="./img/bundleSym.png"/> Bundle
+                        </h4>
+                        Enjoy data bundles with amazing value <br/>and discover endless opportunities<br/> to
+                        connect worldwide.
+                        <span class="price-tag">from $28</span>
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="container special-offers">
+                <!--<img alt="festival offers." class="festival-image img-fluid" height="auto"-->
+                <!--     src="img/christmasBackground_1.png" width="auto"/>-->
+                <!--<div class="position-absolute bottom-0 start-50 translate-middle-x">-->
+                <!--    <a class="btn-claim-now rounded-pill"  >Claim Now</a>-->
                 <!--</div>-->
-                <!--<div class="badge bg-dark bg-opacity-25 position-absolute top-50 start-100 translate-middle">-->
-                <!--    <a id="btnNextImg" onclick="plusSlides(1)">&#10095;</a>-->
-                <!--</div>-->
-                <!--<div class="move left">-->
-                <!--    <span class="fa fa-angle-left"></span>-->
-                <!--</div>-->
-                <!--<div class="move right">-->
-                <!--    <span class="fa fa-angle-right"></span>-->
-                <!--</div>-->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                <br>
-
-                <!-- The dots/circles -->
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
-
-                <div class="container-fluid">
-                    <div class="row plan-offers">
-                        <div class="col-sm ">
-
-                            <p class="lead">
-                            <h4>
-                                <img src="./img/HomeInternetSym.png"/> Home Internet
-                            </h4>
-                            Power up your home internet connection with
-                            <br/>the fastest internet speed.
-                            <span class="price-tag">from $49.99</span>
-                            </p>
-                        </div>
-
-
-                        <div class="col-sm ">
-
-                            <p class="lead">
-                            <h4>
-                                <img src="./img/wifisym.png"/> Commerical Services
-                            </h4>
-                            Run your business from anywhere with our latest technology broadband connection.
-
-                            <span class="price-tag">at $29</span>
-                            </p>
-                        </div>
-
-
-                        <div class="col-sm ">
-
-                            <p class="lead">
-                            <h4>
-                                <img src="./img/bundleSym.png"/> Bundle
-                            </h4>
-                            Enjoy data bundles with amazing value <br/>and discover endless opportunities<br/> to
-                            connect worldwide.
-                            <span class="price-tag">from $28</span>
-                            </p>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="container special-offers">
-                    <!--<img alt="festival offers." class="festival-image img-fluid" height="auto"-->
-                    <!--     src="img/christmasBackground_1.png" width="auto"/>-->
-                    <!--<div class="position-absolute bottom-0 start-50 translate-middle-x">-->
-                    <!--    <a class="btn-claim-now rounded-pill"  >Claim Now</a>-->
-                    <!--</div>-->
-                </div>
-                <div class="container-fluid rounded" style=" color: black">
-                    <div class="row">
-                        <div class="col-sm">
-                            High-speed Internet
-                        </div>
-                        <div class="col-sm">
-                            Rogers family for more than <br/>10M+
-                        </div>
-                        <div class="col-sm">
-                            Safety and Secured
-                        </div>
-                        <div class="col-sm">
-                            Network Efficient
-                        </div>
-                        <div class="col-sm">
-                            List of friendly features
-                        </div>
-                        <div class="col-sm">
-                            More Gadgets
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <h3 class="header-h3">
-                        Start your Savings
-                    </h3>
-
-                    <div class="row container-fluid">
-                        <button class="btn-darkgreen btn-outline-danger" id="btnInternetPlan" type="button">Internet
-                        </button>
-                        <button class=" btn-darkgreen btn-outline-danger" id="btnBusinessPlan" type="button">Business
-                        </button>
-                        <button class="btn-darkgreen btn-outline-danger" id="btnWirelessPlan" type="button">Wireless
-                        </button>
-                        <button class="btn-darkgreen btn-outline-danger" id="btnSmartHomePlan" type="button">Smart
-                            Home
-                        </button>
-                    </div>
-
-                    <div id="btnContentDisplay">
-
-                    </div>
-                </div>
-
-
-                <h2 class="header-h3">Customer Reviews</h2>
+            </div>
+            <div class="container-fluid rounded" style=" color: black;text-align: center;background: rgba(0,0,0, .1)">
                 <div class="row">
-                    <div class="flip-card border-0 container-fluid">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img alt="review-1" src="./img/review-1.png" style="width:300px;height:300px"/>
-
-
-                            </div>
-                            <div class="flip-card-back bg-white">
-
-                                <p class="text-dark">
-                                    By Tom Hardy...<br/>
-                                    Canadian Citizen<br/>
-                                    1.5 GBPS plan
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col-sm">
+                        High-speed Internet
                     </div>
-                    <div class="flip-card border-0 container-fluid">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img alt="review-1" src="./img/review-2.png" style="width:300px;height:300px"/>
-
-
-                            </div>
-                            <div class="flip-card-back bg-white">
-
-                                <p class="text-dark">
-                                    By Luzy Taylor...<br/>
-                                    American Citizen<br/>
-                                    SOHO 1 GBPS plan
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col-sm">
+                         Trusted home internet services
                     </div>
-                    <div class="flip-card border-0 container-fluid">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img alt="review-1" src="./img/review-3.png" style="width:300px;height:300px"/>
-
-                            </div>
-                            <div class="flip-card-back bg-white">
-
-                                <p class="text-dark">
-                                    By Timmy Tram...<br/>
-                                    Canadian Citizen<br/>
-                                    Mobility plan and<br/> Home security
-                                </p>
-
-                            </div>
-                        </div>
+                    <div class="col-sm">
+                        Safety and Secured
                     </div>
-                    <!--<div class="flip-card container-fluid">-->
-                    <!--    <div class="flip-card-inner">-->
-                    <!--        <div class="flip-card-front">-->
-                    <!--            <p class="text-dark">-->
-                    <!--                we loved the internet!-->
-                    <!--            </p>-->
-                    <!--        </div>-->
-                    <!--        <div class="flip-card-back bg-white">-->
-                    <!--            <h3 class="text-dark">-->
-                    <!--                John Doe-->
-                    <!--            </h3>-->
+                    <div class="col-sm">
+                        Network Efficient
+                    </div>
+                    <div class="col-sm">
+                        List of friendly features
+                    </div>
+                    <div class="col-sm">
+                        More Gadgets
+                    </div>
+                </div>
+            </div>
 
-                    <!--            <img alt="review-1" src="./img/persona-1.jpg" style="width:300px;height:200px"/>-->
+            <div class="container">
+                <h3 class="header-h3">
+                    Start your Savings
+                </h3>
 
-                    <!--        </div>-->
-                    <!--    </div>-->
-                    <!--</div>-->
+                <div class="row container-fluid">
+                    <button class="btn-darkgreen btn-outline-danger " id="btnInternetPlan" type="button">Internet
+                    </button>
+                    <button class=" btn-darkgreen btn-outline-danger" id="btnBusinessPlan" type="button">Business
+                    </button>
+                    <button class="btn-darkgreen btn-outline-danger" id="btnWirelessPlan" type="button">Wireless
+                    </button>
+                    <button class="btn-darkgreen btn-outline-danger" id="btnSmartHomePlan" type="button">Smart
+                        Home
+                    </button>
+                </div>
+
+                <div class="text-center" id="btnContentDisplay">
 
                 </div>
             </div>
+
+
+            <h2 class="header-h3">Customer Reviews</h2>
+            <div class="row">
+                <div class="flip-card border-0 container-fluid">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img alt="review-1" src="./img/review-1.png" style="width:300px;height:300px"/>
+
+
+                        </div>
+                        <div class="flip-card-back bg-white">
+
+                            <p class="text-dark">
+                                By Tom Hardy...<br/>
+                                Canadian Citizen<br/>
+                                1.5 GBPS plan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card border-0 container-fluid">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img alt="review-1" src="./img/review-2.png" style="width:300px;height:300px"/>
+
+
+                        </div>
+                        <div class="flip-card-back bg-white">
+
+                            <p class="text-dark">
+                                By Luzy Taylor...<br/>
+                                American Citizen<br/>
+                                SOHO 1 GBPS plan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card border-0 container-fluid">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img alt="review-1" src="./img/review-3.png" style="width:300px;height:300px"/>
+
+                        </div>
+                        <div class="flip-card-back bg-white">
+
+                            <p class="text-dark">
+                                By Timmy Tram...<br/>
+                                Canadian Citizen<br/>
+                                Mobility plan and<br/> Home security
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="flip-card container-fluid">-->
+                <!--    <div class="flip-card-inner">-->
+                <!--        <div class="flip-card-front">-->
+                <!--            <p class="text-dark">-->
+                <!--                we loved the internet!-->
+                <!--            </p>-->
+                <!--        </div>-->
+                <!--        <div class="flip-card-back bg-white">-->
+                <!--            <h3 class="text-dark">-->
+                <!--                John Doe-->
+                <!--            </h3>-->
+
+                <!--            <img alt="review-1" src="./img/persona-1.jpg" style="width:300px;height:200px"/>-->
+
+                <!--        </div>-->
+                <!--    </div>-->
+                <!--</div>-->
+
+            </div>
         </div>
+        <!--</div>-->
     </section>
     <footer class="border-top footer text-muted" data-position="fixed" data-role="footer" data-theme="b"
             style="background-color:red">
@@ -427,7 +446,7 @@ email:  Dshah3418@conestogac.on.ca
                             flexibility of staying connected wherever you go!
                         </p>
                         <div class="btn-contactus text-white rounded-pill justify-content-center">
-                            <a href="#pageContactUs" class="btn-contactus">Contact Us</a>
+                            <a class="btn-contactus" href="#pageContactUs">Contact Us</a>
                         </div>
 
                     </div>
@@ -451,7 +470,7 @@ email:  Dshah3418@conestogac.on.ca
                             reliability, and affordability of high-quality internet service right in your own home!
                         </p>
                         <div class="btn-contactus text-white rounded-pill justify-content-center">
-                            <a href="#pageContactUs" class="btn-contactus">Contact Us</a>
+                            <a class="btn-contactus" href="#pageContactUs">Contact Us</a>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-6">
@@ -484,7 +503,7 @@ email:  Dshah3418@conestogac.on.ca
                             entertainment!
                         </p>
                         <div class="btn-contactus text-white rounded-pill justify-content-center">
-                            <a href="#pageContactUs" class="btn-contactus">Contact Us</a>
+                            <a class="btn-contactus" href="#pageContactUs">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -507,7 +526,7 @@ email:  Dshah3418@conestogac.on.ca
                             mind that comes with knowing your home and loved ones are protected.
                         </p>
                         <div class="btn-contactus text-white rounded-pill justify-content-center">
-                            <a href="#pageContactUs" class="btn-contactus">Contact Us</a>
+                            <a class="btn-contactus" href="#pageContactUs">Contact Us</a>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-6">
@@ -575,140 +594,267 @@ email:  Dshah3418@conestogac.on.ca
         </nav>
     </div>
     <section class="bg-transparent" data-role="content">
-        <h1 class="text-center font-weight-bold border-bottom-2 special-offers-heading">This is the Special offers page</h1>
+        <h1 class="text-center font-weight-bold border-bottom-2 site-header sticky-top py-1 text-white special-offers-heading">
+            This is the Special offers page</h1>
 
-        <div class="container">
-            <h2>Home Internet Offers</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card bg-transparent border-0">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Starting at $44...
-                            </h5>
-                            <p class="card-text">
-                            <ul class="m-5">
-                                <li>
-                                    <span class="font-weight-bold"> 100 Mbps</span> for $44.
-                                </li>
-                                <li>
-                                    500 Mbps for $50.
-                                </li>
-                                <li>
-                                    1000 Mbps for $60.
-                                </li>
-                                <li>
-                                    1.5 Gbps for $65.
-                                </li>
-                                <li>
-                                    50 Mbps for $39.
-                                </li>
-                            </ul>
-                            </p>
+        <div class="container d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class="bg-dark text-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center  overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-4">Home Internet Plans</h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card bg-transparent border-0">
+                                <div class="card-body">
+                                    <h5 class="card-title ">
+                                        Starting at $44...
+                                    </h5>
+                                    <p class="card-text">
+                                    <ul class="m-5 lead">
+                                        <li>
+                                            <span class="font-weight-bold"> 100 Mbps</span> for $44.
+                                        </li>
+                                        <li>
+                                            500 Mbps for $50.
+                                        </li>
+                                        <li>
+                                            1000 Mbps for $60.
+                                        </li>
+                                        <li>
+                                            1.5 Gbps for $65.
+                                        </li>
+                                        <li>
+                                            50 Mbps for $39.
+                                        </li>
+
+                                    </ul>
+                                    </p>
+                                </div>
+                                <div class="bg-light box-shadow mx-auto"
+                                     style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="bg-light text-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center  overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-4">Business Plans</h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card bg-transparent border-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Starting at $60...
+                                    </h5>
+                                    <p class="card-text">
+                                    <ul class="m-5 lead">
+                                        <li>
+                                            Commercial phone line available at $10 only.
+                                        </li>
+                                        <li>
+                                            Commerical Security plans available at $29 only.
+                                        </li>
+                                        <li>
+                                            Commercial Internet Plans available at $59 only.
+                                        </li>
+
+                                    </ul>
+                                    </p>
+                                </div>
+                                <div class="bg-dark box-shadow mx-auto"
+                                     style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
+        <div class="container d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+            <div class="bg-light text-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center  overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-4">Wireless Plans</h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card bg-transparent border-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Starting at $25... (Only Talk & Test)<br/>
+                                        Best Offers start at..
+                                    </h5>
+                                    <p class="card-text">
+                                    <ul class="m-5 lead">
+                                        <li>
+                                            10 GB for $45 only.
+                                        </li>
+                                        <li>
+                                            50 GB for $65 only.
+                                        </li>
+                                        <li>
+                                            100 GB for $79 only
+                                        </li>
+                                        <li>US/Canada Calling $5 additional charges*</li>
+                                        <li>Asian countries (International Calling) $5 additional charges*</li>
+                                        <li class="text-capitalize">
+                                            <div>Highlight DEAL</div>
+                                            <div>25 GB for $40</div>
+                                        </li>
+                                        <li>
 
-
-        <div class="container">
-            <h2>Business Plans</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card bg-transparent border-0">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Starting at $60...
-                            </h5>
-                            <p class="card-text">
-                            <ul class="m-5">
-                                <li>
-                                    Commercial phone line available at $10 only.
-                                </li>
-                                <li>
-                                    Commerical Security plans available at $29 only.
-                                </li>
-                                <li>
-                                    Commercial Internet Plans available at $59 only.
-                                </li>
-
-                            </ul>
-                            </p>
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                                <div class="bg-dark box-shadow mx-auto"
+                                     style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <h2>Wireless Plans</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card bg-transparent border-0">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Starting at $25... (Only Talk & Test)<br/>
-                                Best Offers start at..
-                            </h5>
-                            <p class="card-text">
-                            <ul class="m-5">
-                                <li>
-                                    10 GB for $45 only.
-                                </li>
-                                <li>
-                                    50 GB for $65 only.
-                                </li>
-                                <li>
-                                    100 GB for $79 only
-                                </li>
-                                <li>US/Canada Calling $5 additional charges*</li>
-                                <li>Asian countries (International Calling) $5 additional charges*</li>
-                                <li class="text-capitalize"><div>Highlight DEAL</div><div>25 GB for $40</div></li>
-                            <li>
-
-                            </li>
-                            </ul>
-                            </p>
+            <div class="bg-dark text-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center  overflow-hidden">
+                <div class="my-3 py-3">
+                    <h2 class="display-4">Smart Home Plans</h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card bg-transparent border-0">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Starting at $15...
+                                    </h5>
+                                    <p class="card-text">
+                                    <ul class="m-5 lead">
+                                        <li>
+                                            <span class="text-capitalize"> Telus Home security plans</span> <br/>
+                                            $40 includes <br/>
+                                            2 Cameras,<br/>
+                                            2 Indoor Cameras,<br/>
+                                            2 Outdoor Cameras, <br/>
+                                            1 Monitor Control Panel<br/>
+                                        </li>
+                                        <li>
+                                            24 Hours Guard Response.
+                                        </li>
+                                        <li>
+                                            Upto $25,000 Online Fraud Protection.
+                                        </li>
+                                        <li>
+                                            Many other Customizations available.
+                                        </li>
+                                    </ul>
+                                    </p>
+                                </div>
+                                <div class="bg-light box-shadow mx-auto"
+                                     style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="container">
-            <h2>Smart Home Plans</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card bg-transparent border-0">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Starting at $15...
-                            </h5>
-                            <p class="card-text">
-                            <ul class="m-5">
-                                <li>
-                                   <span class="text-capitalize"> Telus Home security plans</span> <br/>
-                                    $40 includes <br/>
-                                    2 Cameras,<br/>
-                                    2 Indoor Cameras,<br/>
-                                    2 Outdoor Cameras, <br/>
-                                    1 Monitor Control Panel<br/>
-                                </li>
-                                <li>
-                                    24 Hours Guard Response.
-                                </li>
-                                <li>
-                                    Upto $25,000 Online Fraud Protection.
-                                </li>
-                            <li>
-                                Many other Customizations available.
-                            </li>
 
-                            </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+
             </div>
+
+
+            <!--<div class="container">-->
+            <!--    <h2>Business Plans</h2>-->
+            <!--    <div class="row">-->
+            <!--        <div class="col-md-12">-->
+            <!--            <div class="card bg-transparent border-0">-->
+            <!--                <div class="card-body">-->
+            <!--                    <h5 class="card-title">-->
+            <!--                        Starting at $60...-->
+            <!--                    </h5>-->
+            <!--                    <p class="card-text">-->
+            <!--                    <ul class="m-5">-->
+            <!--                        <li>-->
+            <!--                            Commercial phone line available at $10 only.-->
+            <!--                        </li>-->
+            <!--                        <li>-->
+            <!--                            Commerical Security plans available at $29 only.-->
+            <!--                        </li>-->
+            <!--                        <li>-->
+            <!--                            Commercial Internet Plans available at $59 only.-->
+            <!--                        </li>-->
+
+            <!--                    </ul>-->
+            <!--                    </p>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+
+
+            <!--<div class="container">-->
+            <!--    <h2>Wireless Plans</h2>-->
+            <!--    <div class="row">-->
+            <!--        <div class="col-md-12">-->
+            <!--            <div class="card bg-transparent border-0">-->
+            <!--                <div class="card-body">-->
+            <!--                    <h5 class="card-title">-->
+            <!--                        Starting at $25... (Only Talk & Test)<br/>-->
+            <!--                        Best Offers start at..-->
+            <!--                    </h5>-->
+            <!--                    <p class="card-text">-->
+            <!--                    <ul class="m-5">-->
+            <!--                        <li>-->
+            <!--                            10 GB for $45 only.-->
+            <!--                        </li>-->
+            <!--                        <li>-->
+            <!--                            50 GB for $65 only.-->
+            <!--                        </li>-->
+            <!--                        <li>-->
+            <!--                            100 GB for $79 only-->
+            <!--                        </li>-->
+            <!--                        <li>US/Canada Calling $5 additional charges*</li>-->
+            <!--                        <li>Asian countries (International Calling) $5 additional charges*</li>-->
+            <!--                        <li class="text-capitalize"><div>Highlight DEAL</div><div>25 GB for $40</div></li>-->
+            <!--                    <li>-->
+
+            <!--                    </li>-->
+            <!--                    </ul>-->
+            <!--                    </p>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+            <!--<div class="container">-->
+            <!--    <h2>Smart Home Plans</h2>-->
+            <!--    <div class="row">-->
+            <!--        <div class="col-md-12">-->
+            <!--            <div class="card bg-transparent border-0">-->
+            <!--                <div class="card-body">-->
+            <!--                    <h5 class="card-title">-->
+            <!--                        Starting at $15...-->
+            <!--                    </h5>-->
+            <!--                    <p class="card-text">-->
+            <!--                    <ul class="m-5">-->
+            <!--                        <li>-->
+            <!--                           <span class="text-capitalize"> Telus Home security plans</span> <br/>-->
+            <!--                            $40 includes <br/>-->
+            <!--                            2 Cameras,<br/>-->
+            <!--                            2 Indoor Cameras,<br/>-->
+            <!--                            2 Outdoor Cameras, <br/>-->
+            <!--                            1 Monitor Control Panel<br/>-->
+            <!--                        </li>-->
+            <!--                        <li>-->
+            <!--                            24 Hours Guard Response.-->
+            <!--                        </li>-->
+            <!--                        <li>-->
+            <!--                            Upto $25,000 Online Fraud Protection.-->
+            <!--                        </li>-->
+            <!--                    <li>-->
+            <!--                        Many other Customizations available.-->
+            <!--                    </li>-->
+
+            <!--                    </ul>-->
+            <!--                    </p>-->
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
         </div>
     </section>
 
@@ -768,8 +914,8 @@ email:  Dshah3418@conestogac.on.ca
     </div>
     <section data-role="content">
         <div class="container">
-            <h3 class="header-h3">
-                <span style="font-size:40px;color:orangered">We are listening, </span>Just leave a message and our
+            <h3 class="header-h3" style="color: #b20041">
+                <span style="font-size:40px;color:#b2003c">We are listening, </span>Just leave a message and our
                 representative will give you a call.
             </h3>
 
@@ -797,7 +943,7 @@ email:  Dshah3418@conestogac.on.ca
                     </div>
                     <div class="col">
                         <label class="message-label">Your Plan Inquiry</label>
-                        <input class="form-control" disabled type="text"/>
+                        <input class="form-control"  type="text"/>
                     </div>
                 </div>
                 <div class="form-group" style="padding-left:10px;padding-right:10px">
@@ -808,7 +954,7 @@ email:  Dshah3418@conestogac.on.ca
 
                 <div class="btn-submit-message">
                     <button class="btn btn-primary btn-submit rounded-pill" style="padding:5px 35px 5px 35px;
-           font-size:25px;background-color:orangered" type="submit">Send
+           font-size:25px;background-color:#b2003c;color: white" type="submit">Send
                     </button>
                 </div>
 
@@ -872,8 +1018,8 @@ email:  Dshah3418@conestogac.on.ca
             </div>
         </nav>
     </div>
-    <section data-role="content">
-        <div class="container about-us">
+    <section data-role="content" class="text-center align-content-center" style="margin-left: 120px;padding: 15px">
+        <div class="container about-us text-center">
             <h3 class="header-h3">
                 Our Fastest and most reliable connections!
             </h3>
